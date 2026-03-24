@@ -2,22 +2,18 @@
 
 This repository demonstrates a structured approach to API documentation using publicly available APIs.
 
-## Objective
-To showcase how API documentation can be designed for clarity, usability, and developer efficiency.
+## Context
+The content is based on publicly available APIs and has been organized to reflect real-world documentation practices used in enterprise environments.
 
-## Contents
-- API Overview
-- Resource-level documentation
-- Request/Response examples
-- Parameter definitions
+## Documentation
+
+- [API Overview](overview.md)
+- [People API](people-api.md)
+- [Pet API](pet-api.md)
+- [Documentation Approach](documentation-approach.md)
 
 ## Key Focus Areas
-- Clear structure and navigation
-- Consistent formatting
-- Complete endpoint coverage
+- Clear and consistent structure
 - Developer-friendly explanations
-
-## Tools & Approach
-- Markdown-based documentation
-- Swagger / OpenAPI concepts
-- Postman for validation
+- Separation of overview and reference content
+- Scalable documentation practices
