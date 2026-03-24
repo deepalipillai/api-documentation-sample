@@ -1,0 +1,20 @@
+# Pet API
+
+## GET /pet/{id}
+
+### Description
+Fetch pet details using ID.
+
+### Request
+https://petstore.swagger.io/v2/pet/{id}
+
+### Path Parameter
+- id (required): Pet ID
+
+### Sample Response
+```json
+{
+  "id": 77357,
+  "name": "sasha",
+  "status": "available"
+}
