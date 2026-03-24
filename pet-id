@@ -18,3 +18,22 @@ https://petstore.swagger.io/v2/pet/{id}
   "name": "sasha",
   "status": "available"
 }
+-----------------------
+
+DELETE /pet/{id}
+Description
+
+Deletes a pet by ID.
+
+Request
+
+https://petstore.swagger.io/v2/pet/{id}
+
+Path Parameters
+id (required): Pet ID
+api_key (optional)
+Sample Response
+{
+  "code": 1,
+  "message": "Pet not found"
+}
